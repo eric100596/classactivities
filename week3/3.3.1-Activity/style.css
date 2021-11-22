@@ -1,0 +1,54 @@
+
+
+a.one {
+  word-spacing: 100px;
+}
+
+html {
+  margin: 30px;
+  padding: 10px;
+  border: 5px solid brown
+}
+
+#rectangle {
+  width: 100px;
+  height: 30px;
+  background: red;
+}
+
+h1 {
+  text-align: left
+}
+
+p {
+  text-align: center
+}
+
+src {
+position: relative
+
+}
+
+a {
+  color: black
+}
+
+li {
+  display: inline;
+}
+
+a:hover {
+  color: yellow
+}
+
+h1 {
+  font-family: cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+html {
+  background-color: pink;
+}
