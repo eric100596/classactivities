@@ -1,0 +1,136 @@
+html {
+    background-color: black;
+}
+
+.pic1 {
+position: relative;
+right: 20px;
+bottom: 210px;
+float: right
+}
+
+.pic2 {
+    position: relative;
+    left: 5px;
+    bottom: 210px;
+    float: left
+    }
+
+h1 {
+    font-family: cursive, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: white; 
+}
+
+p {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+.box {
+    width: 800px;
+    height: 500px;
+    border: 5px solid white;
+    margin: -60px auto;
+  }
+
+.boxtop {
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px;
+      padding-bottom: 50px;
+      padding-left: 130px;
+  }
+
+.websiteinfo {
+    text-align: center;
+}
+
+.site1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+a {
+    background-color: black;
+    color: white;
+}
+
+.nav1 {
+    float: left;
+    width: auto;
+   
+}
+
+a:hover {
+   background-color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+.nav2 {
+    float: center;
+    text-align: center;
+}
+
+.nav3 {
+    float: right;
+    text-align: right;
+}
+
+.navA1 {
+    float: left;
+}
+
+.navA2 {
+    text-align: center;
+}
+
+.navA3 {
+    float: right;
+}
+
+.navS1 {
+    float: left;
+}
+
+.navS2 {
+    text-align: center;
+}
+
+.navS3 {
+    float: right;
+}
+
+.navI1 {
+    float: left;
+}
+
+.navI2 {
+    text-align: center;
+}
+
+.navI3 {
+    float: right;
+}
