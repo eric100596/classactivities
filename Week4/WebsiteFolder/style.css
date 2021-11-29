@@ -6,14 +6,14 @@ html {
 position: relative;
 right: 20px;
 bottom: 210px;
-float: right
+float: right;
 }
 
 .pic2 {
     position: relative;
     left: 5px;
     bottom: 210px;
-    float: left
+    float: left;
     }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 
 h4 {
     font-family: Georgia, 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     color: white; 
 }
@@ -65,7 +65,7 @@ h4 {
     text-align: center;
 }
 
-h3 {
+h3, h6 {
     text-align: center;
     color: white;
 }

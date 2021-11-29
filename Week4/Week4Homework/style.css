@@ -1,0 +1,49 @@
+html {
+   background-color: #DCDCDC;
+}
+
+h1, h3, h4 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+}
+
+h4 {
+    font-style: italic;
+}
+
+#logo {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.nav1 {
+    float: left;
+}
+
+.nav2 {
+    float: center;
+    text-align: center;
+}
+
+.nav3 {
+    float: right;
+}
+
+a:hover {
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+.box {
+    background-color: #F8F8FF;
+  width: 600px;
+  border: 7px solid black;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
