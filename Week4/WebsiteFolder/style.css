@@ -75,10 +75,13 @@ a {
     color: white;
 }
 
+#flex-container {
+    display: flex;
+    justify-content: center;
+  }
+
 .nav1 {
-    float: left;
-    width: auto;
-   
+    text-align: justify;
 }
 
 a:hover {
@@ -89,15 +92,9 @@ a:hover {
     color: black;
 }
 
-.nav2 {
-    float: center;
-    text-align: center;
-}
 
-.nav3 {
-    float: right;
-    text-align: right;
-}
+
+
 
 .navA1 {
     float: left;
