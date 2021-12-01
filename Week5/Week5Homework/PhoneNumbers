@@ -1,5 +1,3 @@
-// https://jsonplaceholder.typicode.com/users
-
 const data = [
     {
       id: 1,
@@ -233,23 +231,14 @@ const data = [
     }
   ];
   
-  // using forEach, print a list of cities from the data
-  data.forEach(value => console.log(value.address.city));
-  // create an array of latitude and longitude coordinate pairs
-  const coords = [];
-  data.forEach(location => {
-      let lat = location.address.geo.lat;
-      let lng = location.address.geo.lng;
-      coords.push([lat, lng]);
+// using forEach, print a list of phone numbers from the data
+  data.forEach(value => console.log(value.phone));
+
+  //create and print a list of website and email pairs (pair them in a string, array, or object)
+  const sitesEmail = [];
+  data.forEach(container => {
+      let site = container.website;
+      let email = container.email;
+      sitesEmail.push([site, email]);
+      console.log(sitesEmail);
   });
-  //console.log(coords);
-  // create an array of strings that combine the company's catchPhrase and bs
-  const arrOfStrings = [];
-  data.forEach(item => {
-      let catchString = `${item.company.catchPhrase} SPLIT ${item.company.bs}`;
-  arrOfStrings.push(catchString);
-    });
-    //console.log(arrOfStrings);
-
-  // query the HTML for the class class-week, then use forEach to change the text content
-
