@@ -75,13 +75,15 @@ a {
     color: white;
 }
 
-#flex-container {
+/* #flex-container {
     display: flex;
-    justify-content: center;
-  }
+    flex-direction: row;
+    justify-content: space-around;
+  } */
 
 .nav1 {
-    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 a:hover {
