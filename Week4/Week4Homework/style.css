@@ -19,16 +19,8 @@ h4 {
 }
 
 .nav1 {
-    float: left;
-}
-
-.nav2 {
-    float: center;
-    text-align: center;
-}
-
-.nav3 {
-    float: right;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 a:hover {
