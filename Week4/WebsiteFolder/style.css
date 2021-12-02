@@ -36,6 +36,7 @@ p {
 
 li {
     color: white;
+    text-indent: 5px;
 }
 
 h4 {
@@ -75,16 +76,12 @@ a {
     color: white;
 }
 
-/* #flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  } */
-
-.nav1 {
+.nav1, .navA1, .navI1, .navS1 {
     display: flex;
     justify-content: space-evenly;
 }
+
+
 
 a:hover {
    background-color: white;
@@ -98,38 +95,3 @@ a:hover {
 
 
 
-.navA1 {
-    float: left;
-}
-
-.navA2 {
-    text-align: center;
-}
-
-.navA3 {
-    float: right;
-}
-
-.navS1 {
-    float: left;
-}
-
-.navS2 {
-    text-align: center;
-}
-
-.navS3 {
-    float: right;
-}
-
-.navI1 {
-    float: left;
-}
-
-.navI2 {
-    text-align: center;
-}
-
-.navI3 {
-    float: right;
-}

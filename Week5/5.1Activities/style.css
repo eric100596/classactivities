@@ -34,3 +34,29 @@ border: none;
       color: purple;
     }
   }
+
+  @media (min-width: 550px) {
+    nav > .fa-bars {
+      display: none;
+    }
+  }
+
+  /* in HTML: <ul class="hidden--mobile"> */
+@media (max-width: 550px) {
+  .hidden--mobile {
+    display: none;
+  }
+}
+
+header {
+  background-image: url(https://source.unsplash.com/random/800x600) center center no-repeat;
+  background-size: cover;
+}
+
+header > a {
+  text-decoration: none;
+  background-color: black;
+  font-size: 1.5em;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
