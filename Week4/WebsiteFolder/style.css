@@ -21,6 +21,7 @@ h1 {
     font-size: 100px;
     text-align: center;
     color: white;
+    vertical-align: 100px;
 }
 
 h4 {
@@ -88,7 +89,7 @@ a {
     color: white;
 }
 
-.hidden--mobile1 {
+.hidden--mobile {
     display: flex;
     justify-content: space-evenly;
 }
@@ -111,12 +112,13 @@ a {
 @media (min-width: 550px) {
     nav > .fa-bars {
       display: none;
+      color: white;
     }
   }
 
   /* in HTML: <ul class="hidden--mobile"> */
 @media (max-width: 550px) {
-  .hidden--mobile1 {
+  .hidden--mobile {
     display: none;
   }
 }
