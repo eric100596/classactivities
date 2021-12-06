@@ -600,7 +600,16 @@ const data3 = [
     "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
   }
 ]
-const posts = data3.filter(i => i.userId == 5);
-const pairs = posts.map(i => `Title = ${i.title}, and Body = ${i.body}`);
+// const posts = data3.filter(i => i.userId == 5);
+// const pairs = posts.map(i => `Title = ${i.title}, and Body = ${i.body}`);
 
-console.log(pairs);
+// console.log(pairs);
+
+const userPosts = data3.filter(post => post.userId === 5);
+const userFivesTitleBodyPairs = userPosts.map(post => {
+  return {
+    title: post.title,
+    body: post.body,
+  };
+});
+console.log(userFivesTitleBodyPairs);

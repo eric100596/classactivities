@@ -12,4 +12,4 @@ this.waveHeight = waveHeight;
 }
 
 const huntington = new Beaches("Huntington", "Huntington Beach", "5 feet");
-console.table(huntington);
+console.log(huntington);
