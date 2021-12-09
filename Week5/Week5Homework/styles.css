@@ -39,6 +39,12 @@ html {
     width: auto;
   }
 
+  div > img {
+  max-width: 80vw;
+}
+
+
+
   @media (min-width: 550px) {
     body {
       width: auto;
