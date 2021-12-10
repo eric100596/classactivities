@@ -45,16 +45,11 @@ html {
 
 
 
-  @media (min-width: 550px) {
-    body {
-      width: auto;
-      height: auto;
+  @media (min-width: 376px) {
+    html {
+      background-color: beige;
+      font-family: 'Times New Roman', Courier, monospace;
     }
   }
     
-  @media (max-width: 550px) {
-    body {
-      width: auto;
-      height: auto;
-    }
-  }
+ 
